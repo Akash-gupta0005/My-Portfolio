@@ -4,11 +4,11 @@ function About() {
     return (
         <div className='container-fluid my-3' >
             <div className="d-flex justify-content-around align-items-center" id='about_section'>
-                <div className='d-flex flex-column justify-content-start flex-wrap ps-5 ms-2 col-6'>
+                <div className='d-flex flex-column justify-content-start flex-wrap ps-5 ms-2 col-6' id='about'>
                     <div style={{ width: "400px" }}>
-                        <img src="/media/my_img.png" style={{ width: "100%",borderRadius: "20px" }} alt="AKash's_img" />
+                        <img src="/media/my_img.png" id='my_img' style={{ width: "100%",borderRadius: "20px" }} alt="AKash's_img" />
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4' id='info'>
                         <p>Name : AKash Gupta</p>
                         <p>College : FS University, Shikohabad</p>
                         <p>Email : deepak.gpta96@gmail.com </p>
@@ -47,7 +47,9 @@ function About() {
                     </div>
                 </div>
                 <div className='text-center my-4'>
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vR5FO1FdXhYXvDDPUCRgyBb8N6OdFb5nKzw5yERlRbIJKaF-AZovEB0aK0-7uxU2pV8AHu2e1Oerqv7/pub">
                     <button type="button" style={{ background: "rgb(163 130 225)" }} className=" rounded-pill btn  btn-lg">Resume</button>
+                    </a>
                 </div>
             </div>
         </div>

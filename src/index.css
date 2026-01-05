@@ -170,6 +170,22 @@ nav ul li a:hover{
 }
 
 @media (max-width: 480px) {
+  #card_img{
+    width: 200px !important;
+    height: 180px !important;
+  }
+  .dev_img{
+    width: 340px !important;
+  }
+  #my_img{
+    width: 250px !important;
+  }
+  #about{
+    padding: 2px !important;
+  }
+  #info{
+    font-size: 14px !important;
+  }
   .contact-title {
     font-size: 1.8rem;
   }

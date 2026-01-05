@@ -16,20 +16,25 @@ function Home() {
     }, []);
     return (
         <>
-            <div className="d-flex justify-content-evenly flex-wrap align-items-center my-3">
+            <div className="d-flex justify-content-evenly flex-wrap align-items-center my-3 p-3">
                 <div className='fs-4 fw-medium '>
                     Hey, <br /><span className='fw-semibold' style={{ color: "rgb(163 130 225)", fontSize: "2.8rem" }}> I'm Akash Gupta </span>
                     <div>and I'm a passionate </div>
                     <span className='fw-semibold' style={{ color: "rgb(163 130 225)", fontSize: "2.8rem" }} ref={el}></span>
                     <br /> <br />
+                    <a href="https://www.linkedin.com/in/itzakashgupta8055/">
                     <button type="button" className="rounded-pill btn btn-outline-primary btn-lg me-3">LinkendIn</button>
+                    </a>
+                    <a href="https://github.com/Akash-gupta0005">
                     <button type="button" className="rounded-pill btn btn-outline-primary btn-lg">GitHub</button>
+                    </a>
                 </div>
                 <div className='mt-5'>
                     <img
                         src="/media/bg.png"
                         alt="dev_img"
                         style={{ width: "450px" }}
+                        className='dev_img'
                     />
                 </div>
             </div>

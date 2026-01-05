@@ -14,7 +14,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="card p-4 mb-3" style={{ width: "25rem" }}>
-                    <img src="/media/MeetHub.png" style={{ width: "350px", height: "190px" }} className="card-img-top" alt="MeetHub_Img" />
+                    <img src="/media/MeetHub.png" id='card_img' style={{ width: "350px", height: "190px" }} className="card-img-top" alt="MeetHub_Img" />
                     <div className="card-body">
                         <h5 className="card-title fw-semibold">MeetHub</h5>
                         <p className="card-text">I’ve developed a real-time video conferencing application using MERN stack.   Features included in it are peer-to-peer connection for video and audio streaming, screen sharing capabilities, and instant chat functionality within the conference room.</p>
