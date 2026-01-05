@@ -139,6 +139,16 @@ nav ul li a:hover{
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  
+  .dev_img{
+    width: 380px !important;
+  }
+  #my_img{
+    width: 300px !important;
+  }
+  #about{
+    padding: 2px !important;
+  }
   .contact-container {
     padding: 40px 15px;
   }
